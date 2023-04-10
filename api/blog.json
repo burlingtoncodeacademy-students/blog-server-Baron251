@@ -1,0 +1,14 @@
+[
+	{
+		"post_id": 1,
+		"title": "First Blog Post",
+		"author": "Paul Niemczyk",
+		"body": "These student devs keep getting younger and smarter"
+	},
+	{
+		"post_id": 2,
+		"title": "This is a post",
+		"author": "ME",
+		"body": "Why am I still working on this."
+	}
+]
