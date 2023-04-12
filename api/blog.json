@@ -6,8 +6,14 @@
 		"body": "These student devs keep getting younger and smarter"
 	},
 	{
+<<<<<<< HEAD
 		"title": "This is a post",
 		"author": "MOI",
+=======
+		"post_id": 2,
+		"title": "This is a post",
+		"author": "ME",
+>>>>>>> 372c19b126488e3df9f8a4e0b1ca8c761d4a1ebe
 		"body": "Why am I still working on this."
 	}
 ]
