@@ -1,19 +1,14 @@
 [
 	{
-		"post_id": 1,
 		"title": "First Blog Post",
 		"author": "Paul Niemczyk",
-		"body": "These student devs keep getting younger and smarter"
+		"body": "These student devs keep getting younger and smarter",
+		"post_id": 1
 	},
 	{
-<<<<<<< HEAD
-		"title": "This is a post",
+		"title": "This is NOT another post",
 		"author": "MOI",
-=======
-		"post_id": 2,
-		"title": "This is a post",
-		"author": "ME",
->>>>>>> 372c19b126488e3df9f8a4e0b1ca8c761d4a1ebe
-		"body": "Why am I still working on this."
+		"body": "Why am I still working on this.",
+		"post_id": 2
 	}
 ]

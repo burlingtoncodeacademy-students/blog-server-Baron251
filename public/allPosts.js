@@ -1,15 +1,9 @@
 const url = "http://localhost:4000/routes/posts";
-<<<<<<< HEAD
 const log = console.log;
-=======
-
-
->>>>>>> 372c19b126488e3df9f8a4e0b1ca8c761d4a1ebe
 
 const getAllPosts = async () => {
 	let res = await fetch(url);
 	let result = await res.json();
-<<<<<<< HEAD
 
 	const posts = result.db;
 
@@ -32,20 +26,3 @@ const getAllPosts = async () => {
 };
 
 getAllPosts();
-=======
-    
-    console.log(result.db)
-
-    const posts = result.db
-
-    
-    posts.forEach(post => {
-        let titles = document.getElementsByClassName('post-title')
-        // console.log(post.title)
-        // titles = post.title
-        console.log(titles)
-    });
-};
-
-getAllPosts()
->>>>>>> 372c19b126488e3df9f8a4e0b1ca8c761d4a1ebe

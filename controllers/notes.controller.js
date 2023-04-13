@@ -1,6 +1,5 @@
 const router = require("express").Router();
 
-<<<<<<< HEAD
 const db = require("../api/blog.json");
 
 const fs = require("fs");
@@ -10,16 +9,6 @@ router.get("/posts", (req, res) => {
 	try {
 		//       3           4
 		res.status(200).json({ db });
-=======
-const db = require("../api/blog.json")
-
-const fs = require("fs")
-
-//      1      2    
-router.get("/posts", (req, res) => {
-	try {//       3           4
-		res.status(200).json({db});
->>>>>>> 372c19b126488e3df9f8a4e0b1ca8c761d4a1ebe
 	} catch (err) {
 		res.status(500).send({
 			err: err.message,
@@ -37,12 +26,8 @@ router.get("/posts", (req, res) => {
 // Finding a single post based on it's post_id
 // 			 1
 router.get("/:postId", (req, res) => {
-<<<<<<< HEAD
 	try {
 		//			2
-=======
-	try { //			2
->>>>>>> 372c19b126488e3df9f8a4e0b1ca8c761d4a1ebe
 		let { postId } = req.params;
 		// Filtering through the database by post_id, checking each post_id to see if it's equal to the req.params (aka, see if it's equal to postId)
 		//					  3		  4				2.5
@@ -87,8 +72,4 @@ router.post("/add-post", (req, res) => {
 		});
 	}
 });
-<<<<<<< HEAD
 module.exports = router;
-=======
-module.exports = router;
->>>>>>> 372c19b126488e3df9f8a4e0b1ca8c761d4a1ebe
